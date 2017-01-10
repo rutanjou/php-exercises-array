@@ -1,12 +1,18 @@
-<?php  
-$hautFrance =array(
-	02=>"aisne",
-	59=>"nord",
-	60=>"oise",
-	62=>"pas-de-calais",
-	80=>"somme",
-	51=>"Reims");
-foreach ($hautFrance as $key){
-	# code...
-	echo "$key </br>";
+<?php 
+$array = array( 
+'janvier', 
+'février',
+'mars',
+'avril',
+'mai',
+'juin',
+'juillet',
+'aout',
+'septembre',
+'octobre',
+'novembre',
+'décembre
+');
+foreach ($array as $key) {
+	echo "$key</br>";
 }
